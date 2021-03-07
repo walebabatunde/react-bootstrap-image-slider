@@ -11,23 +11,48 @@ function Slider() {
   return (
     <Carousel controls={false} interval={5000} fade={true}>
       <Carousel.Item>
-        <img className="d-block w-100" src={image1} alt="First slide" />
+        <img
+          className="d-block w-100"
+          src={image1}
+          alt="First slide"
+          height="1000px"
+        />
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100" src={image2} alt="Second slide" />
+        <img
+          className="d-block w-100"
+          src={image2}
+          alt="Second slide"
+          height="1000px"
+        />
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100" src={image3} alt="Third slide" />
+        <img
+          className="d-block w-100"
+          src={image3}
+          alt="Third slide"
+          height="1000px"
+        />
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100" src={image4} alt="Fourth slide" />
+        <img
+          className="d-block w-100"
+          src={image4}
+          alt="Fourth slide"
+          height="1000px"
+        />
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100" src={image5} alt="Fifth slide" />
+        <img
+          className="d-block w-100"
+          src={image5}
+          alt="Fifth slide"
+          height="1000px"
+        />
       </Carousel.Item>
     </Carousel>
   );
